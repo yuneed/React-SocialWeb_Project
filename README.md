@@ -13,8 +13,17 @@
  ---------------------------------------------
  
 # 화면 구성
+<img src="https://user-images.githubusercontent.com/96070681/231950827-f21de395-827c-4139-9617-17b88d69a03d.png" width="50%"><img src="https://user-images.githubusercontent.com/96070681/231950832-74b87269-8fe7-4067-81b5-e5e745740817.png" width="50%">  
+
+<img src="https://user-images.githubusercontent.com/96070681/231950382-471c4c62-ef62-46fe-b842-a74f9decacf0.png" width="50%"><img src="https://user-images.githubusercontent.com/96070681/231951221-ac0e7d81-6d21-4417-a21c-16c4c5b607a5.png" width="50%">  
+
 <img src="https://user-images.githubusercontent.com/96070681/231945267-69819d33-b33a-4acb-89f3-3d123a831528.png">
 <img src="https://user-images.githubusercontent.com/96070681/231945277-72b11a06-e421-42ec-b7fe-3b468adb3fd8.png">
+
+------------------------------------------------------
+
+### 프로젝트 후 얻은 점
+그저 여러 강의와 구굴링해서 배웠던 부분을 웹 사이트를 만들며 적용시키는 과정에서 많은 에러들이 발생했고 에러를 해결하면서 어려운 부분이었던 반응형 웹 디자인, SPA, Hook함수적용, 상태관리와 여러 라이브러리 부분을 프로젝트에 적용시키고, 에러를 해결하는 과정에서 많은 것을 배운 프로젝트였다. 
 
 ----------------------------------------------------
 <div align=center><h1>📚 STACKS</h1></div>
@@ -29,3 +38,5 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </div>
+
+
