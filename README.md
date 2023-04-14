@@ -1,6 +1,9 @@
-# React-SocialWeb_Project
-# 소셜미디어 웹 사이트 구현
-### 회원가입, 로그인 후 사용자 메인 페이지에 친구 목록들과 피드들을 볼 수 있다.
+# 프로젝트 제목
+ React-SocialWeb_Project
+ 
+# 주요 기능
+ 사용자가 회원가입, 로그인 후에 사용자 메인 페이지에서 나와 팔로워, 팔로우 된 친구들의 피드들이 보여지고 사용자가 사진을 save할 경우 피드에 맨 위로 업데이트 sort된다. 
+ 
 
 
 <div align=center><h1>📚 STACKS</h1></div>
