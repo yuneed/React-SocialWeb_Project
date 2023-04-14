@@ -7,14 +7,16 @@
  ---------------------------------------------------------------
  
 전반적인 사이트의 구현을 하기 위해서 React 컴포넌트 트리의 상위에서 하위 컴포넌트로<br/> 데이터를 
-전달하는 방법을 제공하며, 중간에 있는 중간 컴포넌트들은 해당 데이터를 직접 전달하지 않고도 접근할 수 있는 <mark color="yellow">Context API</mark>를 사용해 전역적인 상태 관리를 하였다.<br/>  
+전달하는 방법을 제공하며, 중간에 있는 중간 컴포넌트들은 해당 데이터를 <br>  직접 전달하지 않고도 접근할 수 있는 **Context API**를 사용해 전역적인 상태 관리를 하였다.<br/>  
 이 Context API를 사용해서 컴포넌트 간의 데이터 공유가 용이해졌으며 상태관리를 더 효율적으로 할 수 있었다.
+ 
+ ---------------------------------------------
  
 # 화면 구성
 <img src="https://user-images.githubusercontent.com/96070681/231945267-69819d33-b33a-4acb-89f3-3d123a831528.png">
 <img src="https://user-images.githubusercontent.com/96070681/231945277-72b11a06-e421-42ec-b7fe-3b468adb3fd8.png">
 
-
+----------------------------------------------------
 <div align=center><h1>📚 STACKS</h1></div>
 <div align=center> 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
