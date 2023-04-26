@@ -16,9 +16,11 @@
 <img src="https://user-images.githubusercontent.com/96070681/231950827-f21de395-827c-4139-9617-17b88d69a03d.png" width="50%"><img src="https://user-images.githubusercontent.com/96070681/231950832-74b87269-8fe7-4067-81b5-e5e745740817.png" width="50%">  
 
 <img src="https://user-images.githubusercontent.com/96070681/231950382-471c4c62-ef62-46fe-b842-a74f9decacf0.png" width="50%"><img src="https://user-images.githubusercontent.com/96070681/231951221-ac0e7d81-6d21-4417-a21c-16c4c5b607a5.png" width="50%">  
+#### 로그인 사용자가 파일을 업로드시킬 수 있다 업로드된 사진 파일은 내림차순으로 정렬된다.
 
 <img src="https://user-images.githubusercontent.com/96070681/231945267-69819d33-b33a-4acb-89f3-3d123a831528.png">
-<img src="https://user-images.githubusercontent.com/96070681/231945277-72b11a06-e421-42ec-b7fe-3b468adb3fd8.png">
+<img src="https://user-images.githubusercontent.com/96070681/234468900-2934989f-4c0c-4cb5-8f90-5a480b9c8d9c.gif" width="900" height="450">
+#### 로그인한 사용자의 친구들의 피드와 프로필을 볼 수 있으며, 각 게시물 포스터에 좋아요를 누르고 삭제 할 수 있다.
 
 ------------------------------------------------------
 
