@@ -16,7 +16,7 @@ export default function Post({post}) {
     const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 
     useEffect(() => {
-        setIsLiked(post.likes.includes(currentUser._id))
+        setIsLiked(post.likes.includes(currentUser._id));
     }, [currentUser._id, post.likes])
 
     useEffect(() => {
@@ -30,11 +30,11 @@ export default function Post({post}) {
     const likeHandler = () => {
         try {
             axios.put("/posts/" + post._id + "/like", { userId: currentUser._id });
-        }catch (err) {
-            setLike(isLiked ? like-1 : like+1);
-            setIsLiked(!isLiked);
-        }
-    } 
+        } catch (err) {}
+        
+        setLike(isLiked ? like - 1 : like + 1);
+        setIsLiked(!isLiked);
+    };
 
     return ( 
         <div className="post">
@@ -61,7 +61,8 @@ export default function Post({post}) {
                 {/* 포스트 가운데 시작 */}
                 <div className="postCenter">
                     <span className="postText">{post?.desc}</span>
-                    <img className='postImg' src={PF+post.img} alt="" />
+                    <img className='postImg' src={PF+post.img} alt="" />    
+                    {/* 몽고디비에 있는 img 경로 잘 못 되어서 이미지 안 나왔었음  */}
                 </div>
                 {/* 포스트 가운데 끝 */}
 

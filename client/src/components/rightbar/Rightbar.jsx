@@ -5,7 +5,9 @@ import { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
-import {Add, Remove} from '@material-ui/icons';
+import {Add} from '@material-ui/icons';
+import RemoveIcon from '@material-ui/icons/Remove';
+
 
 export default function Rightbar({user}) {
     const PF = process.env.REACT_APP_PUBLIC_FOLDER;
@@ -80,7 +82,7 @@ export default function Rightbar({user}) {
             {user.username !== currentUser.username && (
                 <button className="rightbarFollowButton" onClick={handleClick}>
                     {followed ? "Unfollow" : "Follow"}
-                    {followed ? <Remove/> : <Add/>}
+                    {followed ? <RemoveIcon/> : <Add/>}
                 </button>
             )}
                 <h4 className='rightbarTitle'>User Information</h4>
@@ -95,7 +97,9 @@ export default function Rightbar({user}) {
                     </div>
                     <div className="rightbarInfoItem">
                         <span className="rightbarInfoKey">Relationship:</span>
-                        <span className="rightbarInfoValue">{user.relationship === 1 ? "Single" : user.relationship === 2 ? "Married" : "-"}</span>
+                        <span className="rightbarInfoValue">
+                            {user.relationship === 1 ? "Single" : user.relationship === 2 ? "Married" : "-"}
+                        </span>
                     </div>
                 </div>
 

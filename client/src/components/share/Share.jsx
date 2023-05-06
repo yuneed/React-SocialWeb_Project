@@ -18,7 +18,8 @@ export default function Share() {
             userId:user._id,
             desc: desc.current.value
         }
-        // 선택한 파일이 존재하는지 확인하고, 존재하는 경우 FormData 객체를 만들어 파일을 첨부하고 파일 이름을 생성
+        // 선택한 파일이 존재하는지 확인하고, 존재하는 경우 
+        //FormData 객체를 만들어 파일을 첨부하고 파일 이름을 생성
         if(file) {
             const data = new FormData();
             const fileName = Date.now() + file.name;
@@ -46,8 +47,10 @@ export default function Share() {
         <div className="share">
             <div className="shareWrapper">
                 <div className="shareTop">
-                    <img className='shareProfileImg' src={user.profilePicture ? PF+user.profilePicture : PF+"person/noAvatar.png"} alt="" />
-                    <input className='shareInput' ref={desc} placeholder={user.username + " What do you think ?"}></input>
+                    <img className='shareProfileImg' 
+                    src={user.profilePicture ? PF+user.profilePicture : PF+"person/noAvatar.png"} alt="" />
+                    <input className='shareInput' 
+                    ref={desc} placeholder={user.username + " What do you think ?"}></input>
                 </div>
 
                 {/* 밑에 line */}
@@ -66,7 +69,9 @@ export default function Share() {
                             <span className='shareOptionText'>Photo or Video</span>
 
                             {/* 파일 첨부하는곳  */}
-                            <input style={{display: "none"}} type="file" id='file' accept='.png, .jpeg, .jpg' onChange={(e) => setFile(e.target.files[0])} />
+                            <input style={{display: "none"}} 
+                            type="file" id='file' accept='.png, .jpeg, .jpg' 
+                            onChange={(e) => setFile(e.target.files[0])} />
                         </label>
                         <div className="shareOption">
                             <Label htmlColor="blue" className="shareIcon"/>

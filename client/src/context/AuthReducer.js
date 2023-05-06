@@ -27,17 +27,18 @@ const AuthReducer = (state, action) => {
                 }
             };
         case "UNFOLLOW":
-            return {
-                ...state,
-                user:{
+                return {
+                    ...state,
+                    user: {
                     ...state.user,
-                    followings:state.user.followings.filter((following) => following !== action.payload)
-                    // "payload" : 액션에 대한 추가 데이터를 전달
-                    }
-                }
-            default:
-                return state
-    }
+                    followings: state.user.followings.filter(
+                        (following) => following !== action.payload
+                    ),
+                    },
+                };
+                default:
+                return state;
+            }
 };
 
 export default AuthReducer;
